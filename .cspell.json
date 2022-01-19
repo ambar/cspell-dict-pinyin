@@ -1,0 +1,5 @@
+{
+    // "import": ["./cspell-ext.json"]
+    "dictionaries": ["pinyin"],
+    "dictionaryDefinitions": [{ "name": "pinyin", "path": "./words.txt.gz" }]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "cspell-dict-pinyin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "files": [
+        "cspell-ext.json",
+        "words.txt.gz"
+    ],
+    "exports": {
+        ".": "./cspell-ext.json",
+        "./cspell": "./cspell-ext.json",
+        "./cspell-ext.json": "./cspell-ext.json"
+    },
+    "scripts": {
+        "build": "gzip -k words.txt",
+        "test": "cspell -v sample.md",
+        "test:trace": "cspell trace zong zhihu douban wudaokou"
+    }
+}

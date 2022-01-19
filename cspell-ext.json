@@ -1,0 +1,13 @@
+{
+    "id": "pinyin",
+    "name": "pinyin",
+    "description": "Hanyu Pinyin dictionary for cspell.",
+    "dictionaryDefinitions": [
+        {
+            "name": "pinyin",
+            "path": "./words.txt.gz",
+            "description": "Pinyin dictionary for cspell."
+        }
+    ],
+    "dictionaries": []
+}
